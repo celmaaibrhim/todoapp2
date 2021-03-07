@@ -11,8 +11,10 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "author": "",
   "license": "ISC",
